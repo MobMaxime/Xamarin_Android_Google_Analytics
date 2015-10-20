@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.mobmaxime.googleanalytics">
+	<uses-sdk android:minSdkVersion="10" />
+	<application android:label="googleanalytics">
+	</application>
+
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+	<service android:name="com.google.android.gms.analytics.CampaignTrackingService" />
+	<receiver android:name="com.google.android.gms.analytics.CampaignTrackingReceiver" android:exported="true" android:enabled="true">
+	    <intent-filter>
+	        <action android:name="com.android.vending.INSTALL_REFERRER" />
+	    </intent-filter>
+	</receiver>
+</manifest>

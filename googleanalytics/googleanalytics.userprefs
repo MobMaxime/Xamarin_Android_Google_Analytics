@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="googleanalytics/googleanalytics.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.AndroidWearSquare" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="googleanalytics/obj/Debug/resourcecache/E540E2DFCCD5EE4EBEBD55FCDC0536FC/res/layout/abc_screen_toolbar.xml">
+    <Files>
+      <File FileName="googleanalytics/MainActivity.cs" Line="9" Column="29" />
+      <File FileName="googleanalytics/GAService.cs" Line="28" Column="1" />
+      <File FileName="googleanalytics/Properties/AndroidManifest.xml" Line="16" Column="12" />
+      <File FileName="googleanalytics/obj/Debug/resourcecache/E540E2DFCCD5EE4EBEBD55FCDC0536FC/res/layout/abc_screen_toolbar.xml" Line="21" Column="44" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/Dharmik/Projects/googleanalytics/googleanalytics/GAService.cs" line="27" column="1" />
+      <Breakpoint file="/Users/Dharmik/Projects/googleanalytics/googleanalytics/GAService.cs" line="28" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
